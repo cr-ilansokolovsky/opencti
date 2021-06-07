@@ -37,9 +37,14 @@ export const RELATION_DUPLICATE_OF = 'duplicate-of';
 export const RELATION_BELONGS_TO = 'belongs-to';
 export const RELATION_PART_OF = 'part-of'; // Extension
 export const RELATION_SUBTECHNIQUE_OF = 'subtechnique-of'; // Extension
-export const RELATION_REVOKED_BY = 'revoked-by'; // Extension
+export const RELATION_CREATES_REGKEY = 'creates-regkey'; // Extension
+export const RELATION_CREATES_REGKEYVALUE = 'creates-regkeyvalue'; // Extension
+export const RELATION_REQUESTS_URL = 'requests-url'; // Extension
 const STIX_CORE_RELATIONSHIPS = [
   RELATION_DELIVERS,
+  RELATION_CREATES_REGKEY,
+  RELATION_CREATES_REGKEYVALUE,
+  RELATION_REQUESTS_URL,
   RELATION_TARGETS,
   RELATION_USES,
   RELATION_BEACONS_TO,
